@@ -3,7 +3,7 @@
 **Author:** Plinio Durango
 **Tools:** MySQL · Python · pandas · matplotlib · seaborn · Jupyter
 
-A collection of data analysis projects using SQL and Python to explore real-world datasets — covering public safety, environmental quality, consumer behavior, and historical records.
+A collection of data analysis projects using SQL and Python to explore real-world datasets — covering public safety, environmental quality, consumer behavior, historical records, and energy economics.
 
 ---
 
@@ -49,6 +49,16 @@ SQL survival analysis of Titanic passengers — exploring the impact of gender, 
 
 ---
 
+### 5. Green Hydrogen vs. SMR: Levelized Cost in California
+> Python · Techno-Economic Analysis · Discounted Cash Flow · Sensitivity Analysis · Excel
+
+Builds a transparent LCOH (levelized cost of hydrogen) model comparing PEM (proton exchange membrane) electrolysis on a dedicated solar PPA (power purchase agreement) against SMR (steam methane reforming). The base case costs $3.96/kg for green hydrogen versus $2.17/kg for SMR at current California gas prices. Includes crossover analysis, a tornado sensitivity chart, a check of the federal 45V tax credit, a formula driven Excel model, and a one page client style memo.
+
+**Repo:** [green-hydrogen-lcoh](https://github.com/plinio9302/green-hydrogen-lcoh)
+**Key skills:** DCF (discounted cash flow) modeling, scenario and sensitivity analysis, breakeven analysis, Excel modeling, policy analysis
+
+---
+
 ## Skills Demonstrated
 
 | Area | Technologies |
@@ -56,7 +66,8 @@ SQL survival analysis of Titanic passengers — exploring the impact of gender, 
 | SQL Analysis | MySQL, window functions, CREATE VIEW, UNION ALL, CTEs |
 | Data Cleaning | NULLIF, STR_TO_DATE, type casting, NULL handling |
 | Python EDA | pandas, matplotlib, seaborn, Jupyter Notebooks |
-| Domain Areas | Public safety, environmental science, consumer data, historical records |
+| Domain Areas | Public safety, environmental science, consumer data, historical records, energy economics |
+| Financial Modeling | DCF, levelized cost, crossover analysis, tornado sensitivity, Excel models |
 
 ## Tools & Technologies
 
