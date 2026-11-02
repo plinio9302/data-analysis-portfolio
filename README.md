@@ -3,7 +3,7 @@
 **Author:** Plinio Durango
 **Tools:** MySQL · Python · pandas · matplotlib · seaborn · Jupyter
 
-A collection of data analysis projects using SQL and Python to explore real-world datasets — covering public safety, environmental quality, consumer behavior, historical records, and energy economics.
+A collection of data analysis projects using SQL and Python to explore real-world datasets — covering public safety, environmental quality, consumer behavior, historical records, healthcare, and energy economics.
 
 ---
 
@@ -59,6 +59,26 @@ Builds a transparent LCOH (levelized cost of hydrogen) model comparing PEM (prot
 
 ---
 
+### 6. ASA DataFest 2026: Patient Encounter Analysis
+> Python · pandas · EDA · Healthcare Data · 7.7M Records
+
+Team analysis of Stormont Vail Health's four year patient encounter dataset (about 7.7M encounters across rural Northeast Kansas) for ASA (American Statistical Association) DataFest 2026. Maps which of the 20 most frequent diagnosis groups co-occur within 60 days for the same patient (normalized heatmap), then profiles high utilization patient clusters by length of stay, diagnoses, and departments. Cross referencing with the social determinants questionnaire surfaced transportation access as a driver of return visits, which won the Best Insight award at the University of San Francisco site. Raw data is not included under the data use agreement.
+
+**Repo:** [Data_Fest_2026](https://github.com/plinio9302/Data_Fest_2026)
+**Key skills:** Large scale pandas joins, co-occurrence analysis, heatmaps, cohort profiling, healthcare data, communicating insights
+
+---
+
+### 7. Data Wrangling with pandas: A Complete Guide
+> Python · pandas · Data Cleaning · Reshaping · Jupyter
+
+An end to end reference notebook organized in four stages: collect, clean, reshape, and repair. Covers reading data efficiently (dtypes, categoricals, many files into one frame), renaming and type conversion, datetime handling, filtering and indexing, pivot, melt, stack and unstack, and profiling and repairing damaged data.
+
+**Repo:** [my-pandas-notebook](https://github.com/plinio9302/my-pandas-notebook)
+**Key skills:** pandas, data cleaning, datetime handling, pivot and melt, MultiIndex, data profiling
+
+---
+
 ## Skills Demonstrated
 
 | Area | Technologies |
@@ -66,7 +86,8 @@ Builds a transparent LCOH (levelized cost of hydrogen) model comparing PEM (prot
 | SQL Analysis | MySQL, window functions, CREATE VIEW, UNION ALL, CTEs |
 | Data Cleaning | NULLIF, STR_TO_DATE, type casting, NULL handling |
 | Python EDA | pandas, matplotlib, seaborn, Jupyter Notebooks |
-| Domain Areas | Public safety, environmental science, consumer data, historical records, energy economics |
+| Data Wrangling | Collect, clean, reshape, repair with pandas; pivot, melt, datetime handling |
+| Domain Areas | Public safety, environmental science, consumer data, historical records, healthcare, energy economics |
 | Financial Modeling | DCF, levelized cost, crossover analysis, tornado sensitivity, Excel models |
 
 ## Tools & Technologies
